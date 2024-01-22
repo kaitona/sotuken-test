@@ -15,6 +15,7 @@ import Investment_page from "./pages/investment_page/investment_page";
 import { Contracts_MetaMask } from "./contract/contracts";
 import "bootstrap/dist/css/bootstrap.min.css";
 
+
 function App() {
     const cont = new Contracts_MetaMask();
     const is_teacher = cont.isTeacher();
